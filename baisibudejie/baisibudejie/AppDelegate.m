@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SQTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 创建窗口，设置窗口的frame
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 设置窗口的根控制器
+    self.window.rootViewController = [[SQTabBarController alloc] init];
+    
+    // 显示窗口
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

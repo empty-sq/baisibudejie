@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SQRecommendViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="3HX-CV-XcR" id="5WF-tq-P4M"/>
+                <outlet property="userTableView" destination="Qib-5C-Jf6" id="gv5-Py-6Ck"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="3HX-CV-XcR">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="k3C-Ov-t5y"/>
+                    </constraints>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Qib-5C-Jf6">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3HX-CV-XcR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3Ji-UM-yyc"/>
+                <constraint firstAttribute="bottom" secondItem="3HX-CV-XcR" secondAttribute="bottom" id="91r-iF-75H"/>
+                <constraint firstAttribute="trailing" secondItem="Qib-5C-Jf6" secondAttribute="trailing" id="Iaa-tc-7vB"/>
+                <constraint firstItem="Qib-5C-Jf6" firstAttribute="leading" secondItem="3HX-CV-XcR" secondAttribute="trailing" id="UMo-wl-XEQ"/>
+                <constraint firstItem="3HX-CV-XcR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Z29-CU-1lC"/>
+                <constraint firstItem="Qib-5C-Jf6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ZZu-g1-IgB"/>
+                <constraint firstAttribute="bottom" secondItem="Qib-5C-Jf6" secondAttribute="bottom" id="h6R-l6-KFP"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
