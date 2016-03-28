@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1214DC61CA4365700D65E76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DC51CA4365700D65E76 /* main.m */; };
-		B1214DC91CA4365700D65E76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DC81CA4365700D65E76 /* AppDelegate.m */; };
+		B10183B61CA932A800E47F0D /* SQEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183801CA932A800E47F0D /* SQEssenceViewController.m */; };
+		B10183B71CA932A800E47F0D /* SQFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183861CA932A800E47F0D /* SQFriendTrendsViewController.m */; };
+		B10183B81CA932A800E47F0D /* SQFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10183871CA932A800E47F0D /* SQFriendTrendsViewController.xib */; };
+		B10183B91CA932A800E47F0D /* SQRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183891CA932A800E47F0D /* SQRecommendViewController.m */; };
+		B10183BA1CA932A800E47F0D /* SQRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B101838A1CA932A800E47F0D /* SQRecommendViewController.xib */; };
+		B10183BB1CA932A800E47F0D /* SQRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B101838D1CA932A800E47F0D /* SQRecommendCategory.m */; };
+		B10183BC1CA932A800E47F0D /* SQRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B101838F1CA932A800E47F0D /* SQRecommendUser.m */; };
+		B10183BD1CA932A800E47F0D /* SQRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183921CA932A800E47F0D /* SQRecommendCategoryCell.m */; };
+		B10183BE1CA932A800E47F0D /* SQRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10183931CA932A800E47F0D /* SQRecommendCategoryCell.xib */; };
+		B10183BF1CA932A800E47F0D /* SQRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183951CA932A800E47F0D /* SQRecommendUserCell.m */; };
+		B10183C01CA932A800E47F0D /* SQRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B10183961CA932A800E47F0D /* SQRecommendUserCell.xib */; };
+		B10183C11CA932A800E47F0D /* SQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B101839A1CA932A800E47F0D /* SQMeViewController.m */; };
+		B10183C21CA932A800E47F0D /* SQNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183A01CA932A800E47F0D /* SQNewViewController.m */; };
+		B10183C31CA932A800E47F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183A51CA932A800E47F0D /* AppDelegate.m */; };
+		B10183C41CA932A800E47F0D /* UIBarButtonItem+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183A81CA932A800E47F0D /* UIBarButtonItem+SQExtension.m */; };
+		B10183C51CA932A800E47F0D /* UIView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183AA1CA932A800E47F0D /* UIView+SQExtension.m */; };
+		B10183C61CA932A800E47F0D /* SQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183AD1CA932A800E47F0D /* SQNavigationController.m */; };
+		B10183C71CA932A800E47F0D /* SQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183AF1CA932A800E47F0D /* SQTabBarController.m */; };
+		B10183C81CA932A800E47F0D /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183B01CA932A800E47F0D /* Foundation+Log.m */; };
+		B10183C91CA932A800E47F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183B11CA932A800E47F0D /* main.m */; };
+		B10183CA1CA932A800E47F0D /* SQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B10183B51CA932A800E47F0D /* SQTabBar.m */; };
 		B1214DD11CA4365700D65E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1214DD01CA4365700D65E76 /* Assets.xcassets */; };
 		B1214DDF1CA4365700D65E76 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DDE1CA4365700D65E76 /* baisibudejieTests.m */; };
 		B1214DEA1CA4365700D65E76 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DE91CA4365700D65E76 /* baisibudejieUITests.m */; };
-		B17B894A1CA5577D00E0BADA /* SQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17B89491CA5577D00E0BADA /* SQNavigationController.m */; };
-		B19CD8A91CA4CFF200F1E2D0 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CD8A81CA4CFF200F1E2D0 /* Foundation+Log.m */; };
-		B19CD8AF1CA4D03A00F1E2D0 /* SQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CD8AE1CA4D03A00F1E2D0 /* SQTabBar.m */; };
-		B19CD8B21CA4D04F00F1E2D0 /* SQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CD8B11CA4D04F00F1E2D0 /* SQTabBarController.m */; };
-		B19CD8B51CA4D2E000F1E2D0 /* UIView+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CD8B41CA4D2E000F1E2D0 /* UIView+SQExtension.m */; };
-		B19CD8B91CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B19CD8B81CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.m */; };
-		B1E9B99A1CA8315E0092A828 /* SQMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9991CA8315E0092A828 /* SQMeViewController.m */; };
-		B1E9B99D1CA831840092A828 /* SQEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B99C1CA831840092A828 /* SQEssenceViewController.m */; };
-		B1E9B9A01CA8318D0092A828 /* SQNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B99F1CA8318D0092A828 /* SQNewViewController.m */; };
-		B1E9B9A41CA831A90092A828 /* SQFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9A21CA831A90092A828 /* SQFriendTrendsViewController.m */; };
-		B1E9B9A51CA831A90092A828 /* SQFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E9B9A31CA831A90092A828 /* SQFriendTrendsViewController.xib */; };
-		B1E9B9A91CA832090092A828 /* SQRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9A71CA832090092A828 /* SQRecommendViewController.m */; };
-		B1E9B9AA1CA832090092A828 /* SQRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E9B9A81CA832090092A828 /* SQRecommendViewController.xib */; };
-		B1E9B9B11CA838390092A828 /* SQRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9B01CA838390092A828 /* SQRecommendCategory.m */; };
-		B1E9B9B41CA8384B0092A828 /* SQRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9B31CA8384B0092A828 /* SQRecommendUser.m */; };
-		B1E9B9B81CA8398C0092A828 /* SQRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9B61CA8398C0092A828 /* SQRecommendCategoryCell.m */; };
-		B1E9B9B91CA8398C0092A828 /* SQRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E9B9B71CA8398C0092A828 /* SQRecommendCategoryCell.xib */; };
-		B1E9B9BD1CA8399B0092A828 /* SQRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E9B9BB1CA8399B0092A828 /* SQRecommendUserCell.m */; };
-		B1E9B9BE1CA8399B0092A828 /* SQRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1E9B9BC1CA8399B0092A828 /* SQRecommendUserCell.xib */; };
 		B74E78AF4CBECE53F802119B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96AD181BC7DD381C2E0ADD9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +54,44 @@
 /* Begin PBXFileReference section */
 		3DABCA9FDA0C6E6515C888EB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		57C57F3BF53F882AC0D395DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B101837F1CA932A800E47F0D /* SQEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQEssenceViewController.h; sourceTree = "<group>"; };
+		B10183801CA932A800E47F0D /* SQEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQEssenceViewController.m; sourceTree = "<group>"; };
+		B10183851CA932A800E47F0D /* SQFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQFriendTrendsViewController.h; sourceTree = "<group>"; };
+		B10183861CA932A800E47F0D /* SQFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQFriendTrendsViewController.m; sourceTree = "<group>"; };
+		B10183871CA932A800E47F0D /* SQFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		B10183881CA932A800E47F0D /* SQRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendViewController.h; sourceTree = "<group>"; };
+		B10183891CA932A800E47F0D /* SQRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendViewController.m; sourceTree = "<group>"; };
+		B101838A1CA932A800E47F0D /* SQRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendViewController.xib; sourceTree = "<group>"; };
+		B101838C1CA932A800E47F0D /* SQRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendCategory.h; sourceTree = "<group>"; };
+		B101838D1CA932A800E47F0D /* SQRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendCategory.m; sourceTree = "<group>"; };
+		B101838E1CA932A800E47F0D /* SQRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendUser.h; sourceTree = "<group>"; };
+		B101838F1CA932A800E47F0D /* SQRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendUser.m; sourceTree = "<group>"; };
+		B10183911CA932A800E47F0D /* SQRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendCategoryCell.h; sourceTree = "<group>"; };
+		B10183921CA932A800E47F0D /* SQRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendCategoryCell.m; sourceTree = "<group>"; };
+		B10183931CA932A800E47F0D /* SQRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		B10183941CA932A800E47F0D /* SQRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendUserCell.h; sourceTree = "<group>"; };
+		B10183951CA932A800E47F0D /* SQRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendUserCell.m; sourceTree = "<group>"; };
+		B10183961CA932A800E47F0D /* SQRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendUserCell.xib; sourceTree = "<group>"; };
+		B10183991CA932A800E47F0D /* SQMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMeViewController.h; sourceTree = "<group>"; };
+		B101839A1CA932A800E47F0D /* SQMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMeViewController.m; sourceTree = "<group>"; };
+		B101839F1CA932A800E47F0D /* SQNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNewViewController.h; sourceTree = "<group>"; };
+		B10183A01CA932A800E47F0D /* SQNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNewViewController.m; sourceTree = "<group>"; };
+		B10183A41CA932A800E47F0D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B10183A51CA932A800E47F0D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B10183A71CA932A800E47F0D /* UIBarButtonItem+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SQExtension.h"; sourceTree = "<group>"; };
+		B10183A81CA932A800E47F0D /* UIBarButtonItem+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SQExtension.m"; sourceTree = "<group>"; };
+		B10183A91CA932A800E47F0D /* UIView+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SQExtension.h"; sourceTree = "<group>"; };
+		B10183AA1CA932A800E47F0D /* UIView+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQExtension.m"; sourceTree = "<group>"; };
+		B10183AC1CA932A800E47F0D /* SQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNavigationController.h; sourceTree = "<group>"; };
+		B10183AD1CA932A800E47F0D /* SQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNavigationController.m; sourceTree = "<group>"; };
+		B10183AE1CA932A800E47F0D /* SQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBarController.h; sourceTree = "<group>"; };
+		B10183AF1CA932A800E47F0D /* SQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBarController.m; sourceTree = "<group>"; };
+		B10183B01CA932A800E47F0D /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		B10183B11CA932A800E47F0D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B10183B21CA932A800E47F0D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B10183B41CA932A800E47F0D /* SQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBar.h; sourceTree = "<group>"; };
+		B10183B51CA932A800E47F0D /* SQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBar.m; sourceTree = "<group>"; };
 		B1214DC11CA4365700D65E76 /* baisibudejie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisibudejie.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1214DC51CA4365700D65E76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1214DC71CA4365700D65E76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B1214DC81CA4365700D65E76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B1214DD01CA4365700D65E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1214DD51CA4365700D65E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1214DDA1CA4365700D65E76 /* baisibudejieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,40 +100,6 @@
 		B1214DE51CA4365700D65E76 /* baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1214DE91CA4365700D65E76 /* baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisibudejieUITests.m; sourceTree = "<group>"; };
 		B1214DEB1CA4365700D65E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B17B89481CA5577D00E0BADA /* SQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNavigationController.h; sourceTree = "<group>"; };
-		B17B89491CA5577D00E0BADA /* SQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNavigationController.m; sourceTree = "<group>"; };
-		B19CD8A81CA4CFF200F1E2D0 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
-		B19CD8AD1CA4D03A00F1E2D0 /* SQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBar.h; sourceTree = "<group>"; };
-		B19CD8AE1CA4D03A00F1E2D0 /* SQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBar.m; sourceTree = "<group>"; };
-		B19CD8B01CA4D04F00F1E2D0 /* SQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTabBarController.h; sourceTree = "<group>"; };
-		B19CD8B11CA4D04F00F1E2D0 /* SQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTabBarController.m; sourceTree = "<group>"; };
-		B19CD8B31CA4D2E000F1E2D0 /* UIView+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SQExtension.h"; sourceTree = "<group>"; };
-		B19CD8B41CA4D2E000F1E2D0 /* UIView+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SQExtension.m"; sourceTree = "<group>"; };
-		B19CD8B61CA4D53300F1E2D0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		B19CD8B71CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SQExtension.h"; sourceTree = "<group>"; };
-		B19CD8B81CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SQExtension.m"; sourceTree = "<group>"; };
-		B1E9B9981CA8315E0092A828 /* SQMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQMeViewController.h; sourceTree = "<group>"; };
-		B1E9B9991CA8315E0092A828 /* SQMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQMeViewController.m; sourceTree = "<group>"; };
-		B1E9B99B1CA831840092A828 /* SQEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQEssenceViewController.h; sourceTree = "<group>"; };
-		B1E9B99C1CA831840092A828 /* SQEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQEssenceViewController.m; sourceTree = "<group>"; };
-		B1E9B99E1CA8318D0092A828 /* SQNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQNewViewController.h; sourceTree = "<group>"; };
-		B1E9B99F1CA8318D0092A828 /* SQNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQNewViewController.m; sourceTree = "<group>"; };
-		B1E9B9A11CA831A90092A828 /* SQFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQFriendTrendsViewController.h; sourceTree = "<group>"; };
-		B1E9B9A21CA831A90092A828 /* SQFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQFriendTrendsViewController.m; sourceTree = "<group>"; };
-		B1E9B9A31CA831A90092A828 /* SQFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQFriendTrendsViewController.xib; sourceTree = "<group>"; };
-		B1E9B9A61CA832090092A828 /* SQRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendViewController.h; sourceTree = "<group>"; };
-		B1E9B9A71CA832090092A828 /* SQRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendViewController.m; sourceTree = "<group>"; };
-		B1E9B9A81CA832090092A828 /* SQRecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendViewController.xib; sourceTree = "<group>"; };
-		B1E9B9AF1CA838390092A828 /* SQRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendCategory.h; sourceTree = "<group>"; };
-		B1E9B9B01CA838390092A828 /* SQRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendCategory.m; sourceTree = "<group>"; };
-		B1E9B9B21CA8384B0092A828 /* SQRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendUser.h; sourceTree = "<group>"; };
-		B1E9B9B31CA8384B0092A828 /* SQRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendUser.m; sourceTree = "<group>"; };
-		B1E9B9B51CA8398C0092A828 /* SQRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendCategoryCell.h; sourceTree = "<group>"; };
-		B1E9B9B61CA8398C0092A828 /* SQRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendCategoryCell.m; sourceTree = "<group>"; };
-		B1E9B9B71CA8398C0092A828 /* SQRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendCategoryCell.xib; sourceTree = "<group>"; };
-		B1E9B9BA1CA8399B0092A828 /* SQRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendUserCell.h; sourceTree = "<group>"; };
-		B1E9B9BB1CA8399B0092A828 /* SQRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendUserCell.m; sourceTree = "<group>"; };
-		B1E9B9BC1CA8399B0092A828 /* SQRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendUserCell.xib; sourceTree = "<group>"; };
 		F96AD181BC7DD381C2E0ADD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -138,6 +138,210 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B101837C1CA932A800E47F0D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B101837D1CA932A800E47F0D /* Essence */,
+				B10183831CA932A800E47F0D /* FriendTrends */,
+				B10183971CA932A800E47F0D /* Me */,
+				B101839D1CA932A800E47F0D /* New */,
+				B10183A31CA932A800E47F0D /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B101837D1CA932A800E47F0D /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				B101837E1CA932A800E47F0D /* Controllers */,
+				B10183811CA932A800E47F0D /* Models */,
+				B10183821CA932A800E47F0D /* Views */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		B101837E1CA932A800E47F0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B101837F1CA932A800E47F0D /* SQEssenceViewController.h */,
+				B10183801CA932A800E47F0D /* SQEssenceViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B10183811CA932A800E47F0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B10183821CA932A800E47F0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B10183831CA932A800E47F0D /* FriendTrends */ = {
+			isa = PBXGroup;
+			children = (
+				B10183841CA932A800E47F0D /* Controllers */,
+				B101838B1CA932A800E47F0D /* Models */,
+				B10183901CA932A800E47F0D /* Views */,
+			);
+			path = FriendTrends;
+			sourceTree = "<group>";
+		};
+		B10183841CA932A800E47F0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B10183851CA932A800E47F0D /* SQFriendTrendsViewController.h */,
+				B10183861CA932A800E47F0D /* SQFriendTrendsViewController.m */,
+				B10183871CA932A800E47F0D /* SQFriendTrendsViewController.xib */,
+				B10183881CA932A800E47F0D /* SQRecommendViewController.h */,
+				B10183891CA932A800E47F0D /* SQRecommendViewController.m */,
+				B101838A1CA932A800E47F0D /* SQRecommendViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B101838B1CA932A800E47F0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B101838C1CA932A800E47F0D /* SQRecommendCategory.h */,
+				B101838D1CA932A800E47F0D /* SQRecommendCategory.m */,
+				B101838E1CA932A800E47F0D /* SQRecommendUser.h */,
+				B101838F1CA932A800E47F0D /* SQRecommendUser.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B10183901CA932A800E47F0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B10183911CA932A800E47F0D /* SQRecommendCategoryCell.h */,
+				B10183921CA932A800E47F0D /* SQRecommendCategoryCell.m */,
+				B10183931CA932A800E47F0D /* SQRecommendCategoryCell.xib */,
+				B10183941CA932A800E47F0D /* SQRecommendUserCell.h */,
+				B10183951CA932A800E47F0D /* SQRecommendUserCell.m */,
+				B10183961CA932A800E47F0D /* SQRecommendUserCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B10183971CA932A800E47F0D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B10183981CA932A800E47F0D /* Controllers */,
+				B101839B1CA932A800E47F0D /* Models */,
+				B101839C1CA932A800E47F0D /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B10183981CA932A800E47F0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B10183991CA932A800E47F0D /* SQMeViewController.h */,
+				B101839A1CA932A800E47F0D /* SQMeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B101839B1CA932A800E47F0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B101839C1CA932A800E47F0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B101839D1CA932A800E47F0D /* New */ = {
+			isa = PBXGroup;
+			children = (
+				B101839E1CA932A800E47F0D /* Controllers */,
+				B10183A11CA932A800E47F0D /* Models */,
+				B10183A21CA932A800E47F0D /* Views */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		B101839E1CA932A800E47F0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B101839F1CA932A800E47F0D /* SQNewViewController.h */,
+				B10183A01CA932A800E47F0D /* SQNewViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B10183A11CA932A800E47F0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B10183A21CA932A800E47F0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B10183A31CA932A800E47F0D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B10183A41CA932A800E47F0D /* AppDelegate.h */,
+				B10183A51CA932A800E47F0D /* AppDelegate.m */,
+				B10183A61CA932A800E47F0D /* Category */,
+				B10183AB1CA932A800E47F0D /* Controllers */,
+				B10183B01CA932A800E47F0D /* Foundation+Log.m */,
+				B10183B11CA932A800E47F0D /* main.m */,
+				B10183B21CA932A800E47F0D /* PrefixHeader.pch */,
+				B10183B31CA932A800E47F0D /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B10183A61CA932A800E47F0D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B10183A71CA932A800E47F0D /* UIBarButtonItem+SQExtension.h */,
+				B10183A81CA932A800E47F0D /* UIBarButtonItem+SQExtension.m */,
+				B10183A91CA932A800E47F0D /* UIView+SQExtension.h */,
+				B10183AA1CA932A800E47F0D /* UIView+SQExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B10183AB1CA932A800E47F0D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B10183AC1CA932A800E47F0D /* SQNavigationController.h */,
+				B10183AD1CA932A800E47F0D /* SQNavigationController.m */,
+				B10183AE1CA932A800E47F0D /* SQTabBarController.h */,
+				B10183AF1CA932A800E47F0D /* SQTabBarController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B10183B31CA932A800E47F0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B10183B41CA932A800E47F0D /* SQTabBar.h */,
+				B10183B51CA932A800E47F0D /* SQTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B1214DB81CA4365700D65E76 = {
 			isa = PBXGroup;
 			children = (
@@ -163,10 +367,7 @@
 		B1214DC31CA4365700D65E76 /* baisibudejie */ = {
 			isa = PBXGroup;
 			children = (
-				B19CD8A71CA4CF2400F1E2D0 /* Others */,
-				B19CD8A61CA4CF1E00F1E2D0 /* Controllers */,
-				B19CD8A51CA4CF1900F1E2D0 /* Views */,
-				B19CD8A41CA4CF1000F1E2D0 /* Models */,
+				B101837C1CA932A800E47F0D /* Classes */,
 				B1214DC41CA4365700D65E76 /* Supporting Files */,
 			);
 			path = baisibudejie;
@@ -177,7 +378,6 @@
 			children = (
 				B1214DD01CA4365700D65E76 /* Assets.xcassets */,
 				B1214DD51CA4365700D65E76 /* Info.plist */,
-				B1214DC51CA4365700D65E76 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -198,158 +398,6 @@
 				B1214DEB1CA4365700D65E76 /* Info.plist */,
 			);
 			path = baisibudejieUITests;
-			sourceTree = "<group>";
-		};
-		B17B894B1CA55DF400E0BADA /* Me */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B9981CA8315E0092A828 /* SQMeViewController.h */,
-				B1E9B9991CA8315E0092A828 /* SQMeViewController.m */,
-			);
-			name = Me;
-			sourceTree = "<group>";
-		};
-		B17B894C1CA55DFF00E0BADA /* FriendTrends */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B9A11CA831A90092A828 /* SQFriendTrendsViewController.h */,
-				B1E9B9A21CA831A90092A828 /* SQFriendTrendsViewController.m */,
-				B1E9B9A31CA831A90092A828 /* SQFriendTrendsViewController.xib */,
-				B1E9B9A61CA832090092A828 /* SQRecommendViewController.h */,
-				B1E9B9A71CA832090092A828 /* SQRecommendViewController.m */,
-				B1E9B9A81CA832090092A828 /* SQRecommendViewController.xib */,
-			);
-			name = FriendTrends;
-			sourceTree = "<group>";
-		};
-		B17B894D1CA55E0800E0BADA /* New */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B99E1CA8318D0092A828 /* SQNewViewController.h */,
-				B1E9B99F1CA8318D0092A828 /* SQNewViewController.m */,
-			);
-			name = New;
-			sourceTree = "<group>";
-		};
-		B17B894E1CA55E0C00E0BADA /* Essence */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B99B1CA831840092A828 /* SQEssenceViewController.h */,
-				B1E9B99C1CA831840092A828 /* SQEssenceViewController.m */,
-			);
-			name = Essence;
-			sourceTree = "<group>";
-		};
-		B19CD8A41CA4CF1000F1E2D0 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B9AF1CA838390092A828 /* SQRecommendCategory.h */,
-				B1E9B9B01CA838390092A828 /* SQRecommendCategory.m */,
-				B1E9B9B21CA8384B0092A828 /* SQRecommendUser.h */,
-				B1E9B9B31CA8384B0092A828 /* SQRecommendUser.m */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		B19CD8A51CA4CF1900F1E2D0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B9AE1CA837CE0092A828 /* Essence */,
-				B1E9B9AD1CA837C80092A828 /* New */,
-				B1E9B9AC1CA837BE0092A828 /* FriendTrends */,
-				B1E9B9AB1CA837B90092A828 /* Me */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		B19CD8A61CA4CF1E00F1E2D0 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				B17B894E1CA55E0C00E0BADA /* Essence */,
-				B17B894D1CA55E0800E0BADA /* New */,
-				B17B894C1CA55DFF00E0BADA /* FriendTrends */,
-				B17B894B1CA55DF400E0BADA /* Me */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		B19CD8A71CA4CF2400F1E2D0 /* Others */ = {
-			isa = PBXGroup;
-			children = (
-				B1214DC71CA4365700D65E76 /* AppDelegate.h */,
-				B1214DC81CA4365700D65E76 /* AppDelegate.m */,
-				B19CD8A81CA4CFF200F1E2D0 /* Foundation+Log.m */,
-				B19CD8AC1CA4D00D00F1E2D0 /* TabBarController */,
-				B19CD8AB1CA4D00700F1E2D0 /* Navigation */,
-				B19CD8AA1CA4CFFE00F1E2D0 /* Category */,
-			);
-			name = Others;
-			sourceTree = "<group>";
-		};
-		B19CD8AA1CA4CFFE00F1E2D0 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				B19CD8B61CA4D53300F1E2D0 /* PrefixHeader.pch */,
-				B19CD8B31CA4D2E000F1E2D0 /* UIView+SQExtension.h */,
-				B19CD8B41CA4D2E000F1E2D0 /* UIView+SQExtension.m */,
-				B19CD8B71CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.h */,
-				B19CD8B81CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.m */,
-			);
-			name = Category;
-			sourceTree = "<group>";
-		};
-		B19CD8AB1CA4D00700F1E2D0 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				B17B89481CA5577D00E0BADA /* SQNavigationController.h */,
-				B17B89491CA5577D00E0BADA /* SQNavigationController.m */,
-			);
-			name = Navigation;
-			sourceTree = "<group>";
-		};
-		B19CD8AC1CA4D00D00F1E2D0 /* TabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				B19CD8AD1CA4D03A00F1E2D0 /* SQTabBar.h */,
-				B19CD8AE1CA4D03A00F1E2D0 /* SQTabBar.m */,
-				B19CD8B01CA4D04F00F1E2D0 /* SQTabBarController.h */,
-				B19CD8B11CA4D04F00F1E2D0 /* SQTabBarController.m */,
-			);
-			name = TabBarController;
-			sourceTree = "<group>";
-		};
-		B1E9B9AB1CA837B90092A828 /* Me */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Me;
-			sourceTree = "<group>";
-		};
-		B1E9B9AC1CA837BE0092A828 /* FriendTrends */ = {
-			isa = PBXGroup;
-			children = (
-				B1E9B9B51CA8398C0092A828 /* SQRecommendCategoryCell.h */,
-				B1E9B9B61CA8398C0092A828 /* SQRecommendCategoryCell.m */,
-				B1E9B9B71CA8398C0092A828 /* SQRecommendCategoryCell.xib */,
-				B1E9B9BA1CA8399B0092A828 /* SQRecommendUserCell.h */,
-				B1E9B9BB1CA8399B0092A828 /* SQRecommendUserCell.m */,
-				B1E9B9BC1CA8399B0092A828 /* SQRecommendUserCell.xib */,
-			);
-			name = FriendTrends;
-			sourceTree = "<group>";
-		};
-		B1E9B9AD1CA837C80092A828 /* New */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = New;
-			sourceTree = "<group>";
-		};
-		B1E9B9AE1CA837CE0092A828 /* Essence */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Essence;
 			sourceTree = "<group>";
 		};
 		BE5FD48C7365F43B49DB2C4D /* Frameworks */ = {
@@ -470,10 +518,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E9B9B91CA8398C0092A828 /* SQRecommendCategoryCell.xib in Resources */,
-				B1E9B9A51CA831A90092A828 /* SQFriendTrendsViewController.xib in Resources */,
-				B1E9B9BE1CA8399B0092A828 /* SQRecommendUserCell.xib in Resources */,
-				B1E9B9AA1CA832090092A828 /* SQRecommendViewController.xib in Resources */,
+				B10183BE1CA932A800E47F0D /* SQRecommendCategoryCell.xib in Resources */,
+				B10183B81CA932A800E47F0D /* SQFriendTrendsViewController.xib in Resources */,
+				B10183C01CA932A800E47F0D /* SQRecommendUserCell.xib in Resources */,
+				B10183BA1CA932A800E47F0D /* SQRecommendViewController.xib in Resources */,
 				B1214DD11CA4365700D65E76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,23 +595,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1E9B9B81CA8398C0092A828 /* SQRecommendCategoryCell.m in Sources */,
-				B1E9B9A41CA831A90092A828 /* SQFriendTrendsViewController.m in Sources */,
-				B19CD8B51CA4D2E000F1E2D0 /* UIView+SQExtension.m in Sources */,
-				B1E9B9BD1CA8399B0092A828 /* SQRecommendUserCell.m in Sources */,
-				B19CD8B21CA4D04F00F1E2D0 /* SQTabBarController.m in Sources */,
-				B1E9B9B41CA8384B0092A828 /* SQRecommendUser.m in Sources */,
-				B1E9B9A91CA832090092A828 /* SQRecommendViewController.m in Sources */,
-				B1E9B9B11CA838390092A828 /* SQRecommendCategory.m in Sources */,
-				B1214DC91CA4365700D65E76 /* AppDelegate.m in Sources */,
-				B17B894A1CA5577D00E0BADA /* SQNavigationController.m in Sources */,
-				B19CD8AF1CA4D03A00F1E2D0 /* SQTabBar.m in Sources */,
-				B19CD8B91CA4D6F100F1E2D0 /* UIBarButtonItem+SQExtension.m in Sources */,
-				B1214DC61CA4365700D65E76 /* main.m in Sources */,
-				B1E9B9A01CA8318D0092A828 /* SQNewViewController.m in Sources */,
-				B1E9B99D1CA831840092A828 /* SQEssenceViewController.m in Sources */,
-				B1E9B99A1CA8315E0092A828 /* SQMeViewController.m in Sources */,
-				B19CD8A91CA4CFF200F1E2D0 /* Foundation+Log.m in Sources */,
+				B10183C51CA932A800E47F0D /* UIView+SQExtension.m in Sources */,
+				B10183BD1CA932A800E47F0D /* SQRecommendCategoryCell.m in Sources */,
+				B10183C61CA932A800E47F0D /* SQNavigationController.m in Sources */,
+				B10183C71CA932A800E47F0D /* SQTabBarController.m in Sources */,
+				B10183CA1CA932A800E47F0D /* SQTabBar.m in Sources */,
+				B10183BF1CA932A800E47F0D /* SQRecommendUserCell.m in Sources */,
+				B10183BB1CA932A800E47F0D /* SQRecommendCategory.m in Sources */,
+				B10183C91CA932A800E47F0D /* main.m in Sources */,
+				B10183C41CA932A800E47F0D /* UIBarButtonItem+SQExtension.m in Sources */,
+				B10183B71CA932A800E47F0D /* SQFriendTrendsViewController.m in Sources */,
+				B10183C31CA932A800E47F0D /* AppDelegate.m in Sources */,
+				B10183C11CA932A800E47F0D /* SQMeViewController.m in Sources */,
+				B10183B91CA932A800E47F0D /* SQRecommendViewController.m in Sources */,
+				B10183C81CA932A800E47F0D /* Foundation+Log.m in Sources */,
+				B10183BC1CA932A800E47F0D /* SQRecommendUser.m in Sources */,
+				B10183B61CA932A800E47F0D /* SQEssenceViewController.m in Sources */,
+				B10183C21CA932A800E47F0D /* SQNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,7 +733,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = baisibudejie/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = baisibudejie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baisibudejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CN.SQ.baisibudejie;
@@ -699,7 +747,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				GCC_PREFIX_HEADER = baisibudejie/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = baisibudejie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baisibudejie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CN.SQ.baisibudejie;
