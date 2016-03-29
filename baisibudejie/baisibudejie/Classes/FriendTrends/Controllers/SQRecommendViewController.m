@@ -68,7 +68,6 @@ static NSString * const SQUserID = @"user";
 - (void)loadCategories {
     // 显示指示器
     // 请求回来之前不能点击东西，请求很长时间就只能退出软件
-//    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     
     // 发送请求
@@ -150,7 +149,6 @@ static NSString * const SQUserID = @"user";
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         // 字典数据 -> 模型数组
         NSArray *users = [SQRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
-        SQLog(@"%@", responseObject[@"list"]);
         // 清楚所有旧数据
         [rc.users removeAllObjects];
         
@@ -286,7 +284,7 @@ static NSString * const SQUserID = @"user";
 
 #pragma mark -控制器的销毁
 - (void)dealloc {
-    // 停止所有操作
+    // 停止所有操作，防止用户奇怪操作，数据请求到一半返回又进入
     [self.manager.operationQueue cancelAllOperations];
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import "SQEssenceViewController.h"
+#import "SQRecommendTagsViewController.h"
 
 @interface SQEssenceViewController ()
 
@@ -28,7 +29,8 @@
 }
 
 - (void)tagClick {
-    
+    SQRecommendTagsViewController *tagsVC = [[SQRecommendTagsViewController alloc] init];
+    [self.navigationController pushViewController:tagsVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

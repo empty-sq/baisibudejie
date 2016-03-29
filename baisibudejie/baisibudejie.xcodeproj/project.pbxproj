@@ -31,6 +31,7 @@
 		B1214DD11CA4365700D65E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1214DD01CA4365700D65E76 /* Assets.xcassets */; };
 		B1214DDF1CA4365700D65E76 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DDE1CA4365700D65E76 /* baisibudejieTests.m */; };
 		B1214DEA1CA4365700D65E76 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DE91CA4365700D65E76 /* baisibudejieUITests.m */; };
+		B1B15ADB1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B15ADA1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m */; };
 		B74E78AF4CBECE53F802119B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96AD181BC7DD381C2E0ADD9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,8 @@
 		B1214DE51CA4365700D65E76 /* baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1214DE91CA4365700D65E76 /* baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisibudejieUITests.m; sourceTree = "<group>"; };
 		B1214DEB1CA4365700D65E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B15AD91CAAF0AA00B4EE8E /* SQRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendTagsViewController.h; sourceTree = "<group>"; };
+		B1B15ADA1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendTagsViewController.m; sourceTree = "<group>"; };
 		F96AD181BC7DD381C2E0ADD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -165,6 +168,8 @@
 			children = (
 				B101837F1CA932A800E47F0D /* SQEssenceViewController.h */,
 				B10183801CA932A800E47F0D /* SQEssenceViewController.m */,
+				B1B15AD91CAAF0AA00B4EE8E /* SQRecommendTagsViewController.h */,
+				B1B15ADA1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -601,6 +606,7 @@
 				B10183C71CA932A800E47F0D /* SQTabBarController.m in Sources */,
 				B10183CA1CA932A800E47F0D /* SQTabBar.m in Sources */,
 				B10183BF1CA932A800E47F0D /* SQRecommendUserCell.m in Sources */,
+				B1B15ADB1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m in Sources */,
 				B10183BB1CA932A800E47F0D /* SQRecommendCategory.m in Sources */,
 				B10183C91CA932A800E47F0D /* main.m in Sources */,
 				B10183C41CA932A800E47F0D /* UIBarButtonItem+SQExtension.m in Sources */,
