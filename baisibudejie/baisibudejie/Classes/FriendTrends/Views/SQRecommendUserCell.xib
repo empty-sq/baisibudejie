@@ -16,7 +16,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6H-XM-2Id">
-                        <rect key="frame" x="72" y="24" width="42" height="20.5"/>
+                        <rect key="frame" x="72" y="24" width="214" height="20.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -45,7 +45,7 @@
                         </state>
                     </button>
                     <view alpha="0.14999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QhZ-dw-PJy">
-                        <rect key="frame" x="0.0" y="95.5" width="374" height="1"/>
+                        <rect key="frame" x="0.0" y="95" width="374" height="1"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="KnX-S0-IBI"/>
@@ -56,6 +56,7 @@
                     <constraint firstAttribute="bottom" secondItem="QhZ-dw-PJy" secondAttribute="bottom" id="FcG-ew-Eg4"/>
                     <constraint firstItem="d0S-7U-4JT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="HcN-xN-MZN"/>
                     <constraint firstItem="tk1-aY-qYu" firstAttribute="leading" secondItem="d0S-7U-4JT" secondAttribute="trailing" constant="10" id="MCc-7Y-qsS"/>
+                    <constraint firstItem="9cT-Z9-Pul" firstAttribute="leading" secondItem="Q6H-XM-2Id" secondAttribute="trailing" constant="10" id="RUj-iU-2e3"/>
                     <constraint firstItem="Q6H-XM-2Id" firstAttribute="leading" secondItem="d0S-7U-4JT" secondAttribute="trailing" constant="10" id="UB6-hv-afk"/>
                     <constraint firstItem="QhZ-dw-PJy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="W0Q-4N-Dft"/>
                     <constraint firstItem="tk1-aY-qYu" firstAttribute="bottom" secondItem="d0S-7U-4JT" secondAttribute="bottom" id="Wcm-gK-pgC"/>

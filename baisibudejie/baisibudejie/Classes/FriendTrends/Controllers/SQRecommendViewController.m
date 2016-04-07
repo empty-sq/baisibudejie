@@ -68,6 +68,7 @@ static NSString * const SQUserID = @"user";
 - (void)loadCategories {
     // 显示指示器
     // 请求回来之前不能点击东西，请求很长时间就只能退出软件
+    [SVProgressHUD show];
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     
     // 发送请求

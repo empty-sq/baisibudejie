@@ -31,6 +31,13 @@
 		B1214DD11CA4365700D65E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1214DD01CA4365700D65E76 /* Assets.xcassets */; };
 		B1214DDF1CA4365700D65E76 /* baisibudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DDE1CA4365700D65E76 /* baisibudejieTests.m */; };
 		B1214DEA1CA4365700D65E76 /* baisibudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1214DE91CA4365700D65E76 /* baisibudejieUITests.m */; };
+		B1344A101CB532AC00FDD722 /* SQLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1344A0E1CB532AC00FDD722 /* SQLoginRegisterViewController.m */; };
+		B1344A111CB532AC00FDD722 /* SQLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1344A0F1CB532AC00FDD722 /* SQLoginRegisterViewController.xib */; };
+		B1344A141CB546EB00FDD722 /* SQVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1344A131CB546EB00FDD722 /* SQVerticalButton.m */; };
+		B1344A171CB5572200FDD722 /* SQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B1344A161CB5572200FDD722 /* SQTextField.m */; };
+		B173350C1CB3FD470093437F /* SQRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B173350B1CB3FD470093437F /* SQRecommendTag.m */; };
+		B17335101CB3FF100093437F /* SQRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B173350E1CB3FF100093437F /* SQRecommendTagCell.m */; };
+		B17335111CB3FF100093437F /* SQRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B173350F1CB3FF100093437F /* SQRecommendTagCell.xib */; };
 		B1B15ADB1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B15ADA1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m */; };
 		B74E78AF4CBECE53F802119B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96AD181BC7DD381C2E0ADD9 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -101,6 +108,18 @@
 		B1214DE51CA4365700D65E76 /* baisibudejieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baisibudejieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1214DE91CA4365700D65E76 /* baisibudejieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baisibudejieUITests.m; sourceTree = "<group>"; };
 		B1214DEB1CA4365700D65E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1344A0D1CB532AC00FDD722 /* SQLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLoginRegisterViewController.h; sourceTree = "<group>"; };
+		B1344A0E1CB532AC00FDD722 /* SQLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLoginRegisterViewController.m; sourceTree = "<group>"; };
+		B1344A0F1CB532AC00FDD722 /* SQLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		B1344A121CB546EB00FDD722 /* SQVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQVerticalButton.h; sourceTree = "<group>"; };
+		B1344A131CB546EB00FDD722 /* SQVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQVerticalButton.m; sourceTree = "<group>"; };
+		B1344A151CB5572200FDD722 /* SQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTextField.h; sourceTree = "<group>"; };
+		B1344A161CB5572200FDD722 /* SQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTextField.m; sourceTree = "<group>"; };
+		B173350A1CB3FD470093437F /* SQRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendTag.h; sourceTree = "<group>"; };
+		B173350B1CB3FD470093437F /* SQRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendTag.m; sourceTree = "<group>"; };
+		B173350D1CB3FF100093437F /* SQRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendTagCell.h; sourceTree = "<group>"; };
+		B173350E1CB3FF100093437F /* SQRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendTagCell.m; sourceTree = "<group>"; };
+		B173350F1CB3FF100093437F /* SQRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQRecommendTagCell.xib; sourceTree = "<group>"; };
 		B1B15AD91CAAF0AA00B4EE8E /* SQRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendTagsViewController.h; sourceTree = "<group>"; };
 		B1B15ADA1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendTagsViewController.m; sourceTree = "<group>"; };
 		F96AD181BC7DD381C2E0ADD9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,6 +196,8 @@
 		B10183811CA932A800E47F0D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B173350A1CB3FD470093437F /* SQRecommendTag.h */,
+				B173350B1CB3FD470093437F /* SQRecommendTag.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -184,6 +205,9 @@
 		B10183821CA932A800E47F0D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B173350D1CB3FF100093437F /* SQRecommendTagCell.h */,
+				B173350E1CB3FF100093437F /* SQRecommendTagCell.m */,
+				B173350F1CB3FF100093437F /* SQRecommendTagCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +231,9 @@
 				B10183881CA932A800E47F0D /* SQRecommendViewController.h */,
 				B10183891CA932A800E47F0D /* SQRecommendViewController.m */,
 				B101838A1CA932A800E47F0D /* SQRecommendViewController.xib */,
+				B1344A0D1CB532AC00FDD722 /* SQLoginRegisterViewController.h */,
+				B1344A0E1CB532AC00FDD722 /* SQLoginRegisterViewController.m */,
+				B1344A0F1CB532AC00FDD722 /* SQLoginRegisterViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,6 +258,10 @@
 				B10183941CA932A800E47F0D /* SQRecommendUserCell.h */,
 				B10183951CA932A800E47F0D /* SQRecommendUserCell.m */,
 				B10183961CA932A800E47F0D /* SQRecommendUserCell.xib */,
+				B1344A121CB546EB00FDD722 /* SQVerticalButton.h */,
+				B1344A131CB546EB00FDD722 /* SQVerticalButton.m */,
+				B1344A151CB5572200FDD722 /* SQTextField.h */,
+				B1344A161CB5572200FDD722 /* SQTextField.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -524,9 +555,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10183BE1CA932A800E47F0D /* SQRecommendCategoryCell.xib in Resources */,
+				B17335111CB3FF100093437F /* SQRecommendTagCell.xib in Resources */,
 				B10183B81CA932A800E47F0D /* SQFriendTrendsViewController.xib in Resources */,
 				B10183C01CA932A800E47F0D /* SQRecommendUserCell.xib in Resources */,
 				B10183BA1CA932A800E47F0D /* SQRecommendViewController.xib in Resources */,
+				B1344A111CB532AC00FDD722 /* SQLoginRegisterViewController.xib in Resources */,
 				B1214DD11CA4365700D65E76 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -605,6 +638,7 @@
 				B10183C61CA932A800E47F0D /* SQNavigationController.m in Sources */,
 				B10183C71CA932A800E47F0D /* SQTabBarController.m in Sources */,
 				B10183CA1CA932A800E47F0D /* SQTabBar.m in Sources */,
+				B17335101CB3FF100093437F /* SQRecommendTagCell.m in Sources */,
 				B10183BF1CA932A800E47F0D /* SQRecommendUserCell.m in Sources */,
 				B1B15ADB1CAAF0AA00B4EE8E /* SQRecommendTagsViewController.m in Sources */,
 				B10183BB1CA932A800E47F0D /* SQRecommendCategory.m in Sources */,
@@ -612,12 +646,16 @@
 				B10183C41CA932A800E47F0D /* UIBarButtonItem+SQExtension.m in Sources */,
 				B10183B71CA932A800E47F0D /* SQFriendTrendsViewController.m in Sources */,
 				B10183C31CA932A800E47F0D /* AppDelegate.m in Sources */,
+				B1344A141CB546EB00FDD722 /* SQVerticalButton.m in Sources */,
 				B10183C11CA932A800E47F0D /* SQMeViewController.m in Sources */,
 				B10183B91CA932A800E47F0D /* SQRecommendViewController.m in Sources */,
 				B10183C81CA932A800E47F0D /* Foundation+Log.m in Sources */,
 				B10183BC1CA932A800E47F0D /* SQRecommendUser.m in Sources */,
 				B10183B61CA932A800E47F0D /* SQEssenceViewController.m in Sources */,
+				B173350C1CB3FD470093437F /* SQRecommendTag.m in Sources */,
 				B10183C21CA932A800E47F0D /* SQNewViewController.m in Sources */,
+				B1344A101CB532AC00FDD722 /* SQLoginRegisterViewController.m in Sources */,
+				B1344A171CB5572200FDD722 /* SQTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +779,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = baisibudejie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baisibudejie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CN.SQ.baisibudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -755,6 +794,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = baisibudejie/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = baisibudejie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CN.SQ.baisibudejie;
 				PRODUCT_NAME = "$(TARGET_NAME)";

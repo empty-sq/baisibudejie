@@ -8,6 +8,7 @@
 
 #import "SQFriendTrendsViewController.h"
 #import "SQRecommendViewController.h"
+#import "SQLoginRegisterViewController.h"
 
 @interface SQFriendTrendsViewController ()
 
@@ -30,6 +31,11 @@
 - (void)friendsClick {
     SQRecommendViewController *recommendViewController = [[SQRecommendViewController alloc] init];
     [self.navigationController pushViewController:recommendViewController animated:NO];
+}
+
+- (IBAction)loginRegister:(id)sender {
+    SQLoginRegisterViewController *login = [[SQLoginRegisterViewController alloc] init];
+    [self presentViewController:login animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
