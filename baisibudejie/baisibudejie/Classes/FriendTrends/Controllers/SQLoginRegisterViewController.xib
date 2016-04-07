@@ -9,7 +9,6 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SQLoginRegisterViewController">
             <connections>
                 <outlet property="loginViewLeftMargin" destination="lln-Ak-CO1" id="QCt-Vq-vdu"/>
-                <outlet property="phoneField" destination="VYD-jt-kqL" id="t6I-wc-asc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

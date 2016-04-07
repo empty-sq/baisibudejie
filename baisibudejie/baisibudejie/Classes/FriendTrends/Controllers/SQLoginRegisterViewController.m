@@ -12,7 +12,6 @@
 
 /** 登录框距离控制器view左边的间距 */
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *loginViewLeftMargin;
-@property (weak, nonatomic) IBOutlet UITextField *phoneField;
 
 @end
 
@@ -20,18 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // 文字属性
-//    NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
-//    attrs[NSForegroundColorAttributeName] = [UIColor grayColor];
-//    
-//    // NSAttributedString: 带有属性的文字(富文本)
-//    NSMutableAttributedString *placeholder = [[NSMutableAttributedString alloc] initWithString:@"手机号" attributes:attrs];
-//    self.phoneField.attributedPlaceholder = placeholder;
-    
-//    NSMutableAttributedString *placeholder = [[NSMutableAttributedString alloc] initWithString:@"手机号"];
-//    [placeholder setAttributes:@{NSForegroundColorAttributeName : [UIColor redColor]} range:NSMakeRange(0, 3)];
-//    self.phoneField.attributedPlaceholder = placeholder;
 }
 
 - (IBAction)showLoginOrRegister:(UIButton *)sender {
@@ -60,7 +47,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 /**

@@ -10,7 +10,4 @@
 
 @interface SQTextField : UITextField
 
-/** 占位文字颜色 */
-//@property (nonatomic ,strong) UIColor *placeholderColor;
-
 @end
