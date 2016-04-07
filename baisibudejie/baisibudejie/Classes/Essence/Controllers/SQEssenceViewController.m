@@ -18,6 +18,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 设置导航栏
+    [self setupNav];
+    
+    // 设置顶部的标签栏
+    [self setupTitlesView];
+}
+
+/**
+ *  设置顶部的标签栏
+ */
+- (void)setupTitlesView {
+    UIView *titlesView = [[UIView alloc] init];
+    [self.view addSubview:titlesView];
+}
+
+/**
+ *  设置导航栏
+ */
+- (void)setupNav {
     // 设置导航栏内容
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     

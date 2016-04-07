@@ -35,6 +35,8 @@
 		B1344A111CB532AC00FDD722 /* SQLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1344A0F1CB532AC00FDD722 /* SQLoginRegisterViewController.xib */; };
 		B1344A141CB546EB00FDD722 /* SQVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B1344A131CB546EB00FDD722 /* SQVerticalButton.m */; };
 		B1344A171CB5572200FDD722 /* SQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B1344A161CB5572200FDD722 /* SQTextField.m */; };
+		B1474E6E1CB62EA400801072 /* SQPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1474E6D1CB62EA400801072 /* SQPushGuideView.m */; };
+		B1474E701CB62EC400801072 /* SQPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1474E6F1CB62EC400801072 /* SQPushGuideView.xib */; };
 		B173350C1CB3FD470093437F /* SQRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = B173350B1CB3FD470093437F /* SQRecommendTag.m */; };
 		B17335101CB3FF100093437F /* SQRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B173350E1CB3FF100093437F /* SQRecommendTagCell.m */; };
 		B17335111CB3FF100093437F /* SQRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B173350F1CB3FF100093437F /* SQRecommendTagCell.xib */; };
@@ -115,6 +117,9 @@
 		B1344A131CB546EB00FDD722 /* SQVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQVerticalButton.m; sourceTree = "<group>"; };
 		B1344A151CB5572200FDD722 /* SQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQTextField.h; sourceTree = "<group>"; };
 		B1344A161CB5572200FDD722 /* SQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQTextField.m; sourceTree = "<group>"; };
+		B1474E6C1CB62EA400801072 /* SQPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQPushGuideView.h; sourceTree = "<group>"; };
+		B1474E6D1CB62EA400801072 /* SQPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQPushGuideView.m; sourceTree = "<group>"; };
+		B1474E6F1CB62EC400801072 /* SQPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SQPushGuideView.xib; sourceTree = "<group>"; };
 		B173350A1CB3FD470093437F /* SQRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendTag.h; sourceTree = "<group>"; };
 		B173350B1CB3FD470093437F /* SQRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQRecommendTag.m; sourceTree = "<group>"; };
 		B173350D1CB3FF100093437F /* SQRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQRecommendTagCell.h; sourceTree = "<group>"; };
@@ -374,6 +379,9 @@
 			children = (
 				B10183B41CA932A800E47F0D /* SQTabBar.h */,
 				B10183B51CA932A800E47F0D /* SQTabBar.m */,
+				B1474E6C1CB62EA400801072 /* SQPushGuideView.h */,
+				B1474E6D1CB62EA400801072 /* SQPushGuideView.m */,
+				B1474E6F1CB62EC400801072 /* SQPushGuideView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -555,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10183BE1CA932A800E47F0D /* SQRecommendCategoryCell.xib in Resources */,
+				B1474E701CB62EC400801072 /* SQPushGuideView.xib in Resources */,
 				B17335111CB3FF100093437F /* SQRecommendTagCell.xib in Resources */,
 				B10183B81CA932A800E47F0D /* SQFriendTrendsViewController.xib in Resources */,
 				B10183C01CA932A800E47F0D /* SQRecommendUserCell.xib in Resources */,
@@ -650,6 +659,7 @@
 				B10183C11CA932A800E47F0D /* SQMeViewController.m in Sources */,
 				B10183B91CA932A800E47F0D /* SQRecommendViewController.m in Sources */,
 				B10183C81CA932A800E47F0D /* Foundation+Log.m in Sources */,
+				B1474E6E1CB62EA400801072 /* SQPushGuideView.m in Sources */,
 				B10183BC1CA932A800E47F0D /* SQRecommendUser.m in Sources */,
 				B10183B61CA932A800E47F0D /* SQEssenceViewController.m in Sources */,
 				B173350C1CB3FD470093437F /* SQRecommendTag.m in Sources */,
