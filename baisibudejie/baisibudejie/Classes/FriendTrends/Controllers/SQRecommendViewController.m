@@ -269,16 +269,18 @@ static NSString * const SQUserID = @"user";
     [self.userTableView.mj_header endRefreshing];
     [self.userTableView.mj_footer endRefreshing];
     
-    SQRecommendCategory *c = self.categories[indexPath.row];
-    if (c.users.count) {
-        // 显示曾经的数据
-        [self.userTableView reloadData];
-    } else {
-        // 赶紧刷新表格，目的是：马上显示当前category的用户数据，不让用户看见上一个category的残留数据
-        [self.userTableView reloadData];
-        
-        // 进入下拉刷新状态
-        [self.userTableView.mj_header beginRefreshing];
+    if (tableView == self.userTableView) {
+        SQRecommendCategory *c = self.categories[indexPath.row];
+        if (c.users.count) {
+            // 显示曾经的数据
+            [self.userTableView reloadData];
+        } else {
+            // 赶紧刷新表格，目的是：马上显示当前category的用户数据，不让用户看见上一个category的残留数据
+            [self.userTableView reloadData];
+            
+            // 进入下拉刷新状态
+            [self.userTableView.mj_header beginRefreshing];
+        }
     }
 }
 
