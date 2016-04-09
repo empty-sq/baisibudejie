@@ -78,7 +78,6 @@ static NSString * const SQUserID = @"user";
     [self.manager GET:@"http://api.budejie.com/api/api_open.php" parameters:parameters progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        SQLog(@"%@", responseObject[@"list"]);
         // 隐藏指示器
         [SVProgressHUD dismiss];
         // 服务器返回的JSON数据
