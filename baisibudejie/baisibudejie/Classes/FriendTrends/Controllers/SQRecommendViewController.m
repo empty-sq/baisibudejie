@@ -269,7 +269,7 @@ static NSString * const SQUserID = @"user";
     [self.userTableView.mj_header endRefreshing];
     [self.userTableView.mj_footer endRefreshing];
     
-    if (tableView == self.userTableView) {
+    if (tableView == self.categoryTableView) {
         SQRecommendCategory *c = self.categories[indexPath.row];
         if (c.users.count) {
             // 显示曾经的数据
