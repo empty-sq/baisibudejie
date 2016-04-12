@@ -11,6 +11,15 @@
 @implementation SQTopic
 {
     CGFloat _cellHeight;
+    CGRect _pictureF;
+}
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName {
+    return @{
+                @"small_image" : @"image0",
+                @"middle_image" : @"image2",
+                @"large_image" : @"image1"
+                };
 }
 
 - (NSString *)create_time {
@@ -47,9 +56,37 @@
 - (CGFloat)cellHeight {
     if (!_cellHeight) {
         // 文字的Y值
-        CGSize maxSize = CGSizeMake(SQScreenWidth, CGFLOAT_MAX);
+        CGSize maxSize = CGSizeMake(SQScreenW - 4 * SQTopicCellMargin, MAXFLOAT);
+        // 计算文字的高度
         CGFloat textH = [self.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:14]} context:nil].size.height;
-        _cellHeight = SQTopicCellTextY + textH + SQTopicCellBottomBarH + 2 * SQTopicCellMargin;
+        
+        // cell的高度
+        // 文字部分的高度
+        _cellHeight = SQTopicCellTextY + textH + SQTopicCellMargin;
+        
+        // 根据帖子的类型来计算cell的高度
+        if (self.type == SQTopicTypePicture) { // 图片帖子
+            // 图片显示出来的宽度
+            CGFloat pictureW = maxSize.width;
+            // 图片显示出来的高度
+            CGFloat pictureH = pictureW * self.height / self.width;
+            if (pictureH >= SQTopicCellPictureMaxH) { // 图片高度过长
+                pictureH = SQTopicCellPictureBreakH;
+                self.bigPicture = YES; // 大图
+            }
+            
+            // 计算图片控件的frame
+            CGFloat pictureX = SQTopicCellMargin;
+            CGFloat pictureY = SQTopicCellTextY + textH + SQTopicCellMargin;
+            _pictureF = CGRectMake(pictureX, pictureY, pictureW, pictureH);
+            
+            _cellHeight += pictureH + SQTopicCellMargin;
+        } else if (self.type == SQTopicTypeVoice) { // 声音帖子
+            
+        }
+        
+        // 底部工具条的高度
+        _cellHeight += SQTopicCellBottomBarH + SQTopicCellMargin;
     }
     return _cellHeight;
 }

@@ -139,7 +139,7 @@ static NSString * const SQUserID = @"user";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(rc.id);
+    params[@"category_id"] = @(rc.ID);
     params[@"page"] = @(rc.currentPage);
     self.params = params;
     
@@ -186,7 +186,7 @@ static NSString * const SQUserID = @"user";
     NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
     parameters[@"a"] = @"list";
     parameters[@"c"] = @"subscribe";
-    parameters[@"category_id"] = @(category.id);
+    parameters[@"category_id"] = @(category.ID);
     parameters[@"page"] = @(++category.currentPage);
     self.params = parameters;
     

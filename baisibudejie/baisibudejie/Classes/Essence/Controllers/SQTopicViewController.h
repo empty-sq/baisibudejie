@@ -8,14 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum {
-    SQTopicTypeAll = 1,
-    SQTopicTypePicture = 10,
-    SQTopicTypeWord = 29,
-    SQTopicTypeVoice = 31,
-    SQTopicTypeVideo = 41
-} SQTopicType;
-
 @interface SQTopicViewController : UITableViewController
 
 /** 帖子类型(交给子类方法去实现) */

@@ -7,6 +7,7 @@
 //
 
 #import "SQTopicCell.h"
+#import "SQTopicPictureView.h"
 #import <UIImageView+WebCache.h>
 
 @interface SQTopicCell ()
@@ -29,10 +30,21 @@
 @property (weak, nonatomic) IBOutlet UIImageView *sinaVView;
 /** 帖子的文字内容 */
 @property (weak, nonatomic) IBOutlet UILabel *text_Label;
+/** 图片帖子中间的内容 */
+@property (nonatomic, weak) SQTopicPictureView *pictureView;
 
 @end
 
 @implementation SQTopicCell
+
+- (SQTopicPictureView *)pictureView {
+    if (!_pictureView) {
+        SQTopicPictureView *pictureView = [SQTopicPictureView pictureView];
+        [self.contentView addSubview:pictureView];
+        _pictureView = pictureView;
+    }
+    return _pictureView;
+}
 
 - (void)awakeFromNib {
     UIImageView *bgView = [[UIImageView alloc] init];
@@ -63,6 +75,15 @@
     
     // 设置帖子的文字内容
     self.text_Label.text = topic.text;
+    
+    // 根据模型类型(帖子类型)添加对应的内容到cell的中间
+    if (topic.type == SQTopicTypePicture) { // 图片帖子
+        self.pictureView.topic = topic;
+        self.pictureView.frame = topic.pictureF;
+    } else if (topic.type == SQTopicTypeVoice) { // 声音帖子
+//        self.voiceView.topic = topic;
+//        self.voiceView.frame = topic.voiceF;
+    }
 }
 
 /**

@@ -19,3 +19,8 @@ CGFloat const SQTopicCellMargin = 10;
 CGFloat const SQTopicCellTextY = 55;
 /** 精华-cell-底部工具条的高度 */
 CGFloat const SQTopicCellBottomBarH = 44;
+
+/** 精华-cell-图片帖子的最大高度 */
+CGFloat const SQTopicCellPictureMaxH = 1000;
+/** 精华-cell-图片帖子一旦超过最大高度，就是用break */
+CGFloat const SQTopicCellPictureBreakH = 250;

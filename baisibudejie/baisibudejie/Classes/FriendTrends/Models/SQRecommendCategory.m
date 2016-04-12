@@ -7,8 +7,13 @@
 //
 
 #import "SQRecommendCategory.h"
+#import <MJExtension.h>
 
 @implementation SQRecommendCategory
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName {
+    return @{@"ID" : @"id"};
+}
 
 - (NSMutableArray *)users {
     if (_users == nil) {
